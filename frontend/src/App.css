@@ -434,20 +434,21 @@
 
   
   .introContent {
-    padding: 1.5rem;
-    font-size: 1.5rem;
+    padding: 2.5rem;
+    font-size: 2.5rem;
   }
 
   .hello {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 
   .introPara {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   .bg {
-    height: 50vh; /* Reduce height of background image for tablets */
+    height: 60vh;
+    width: 100%; 
     top: 6rem;
   }
   .skillTitle {
@@ -514,20 +515,21 @@
 
   .introContent {
     padding: 1rem;
-    font-size: 0.5rem;
+    font-size: 1.5rem;
     top: 11rem;
   }
 
   .hello {
-    font-size: 1.25rem;
+    font-size: 2rem;
   }
 
   .introPara {
-    font-size: 0.5rem;
+    font-size: 1rem;
+    font-weight: 300;
   }
 
   .bg {
-    height: 40vh; /* Further reduce image size */
+    height: 60vh; /* Further reduce image size */
     top: 10rem;
   }
   .skillTitle {
