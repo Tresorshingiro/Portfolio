@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Code, Database, Globe, Smartphone } from 'lucide-react';
 import { Skill } from '../types';
+import profileImage from '../assets/profile.jpg';
 
 const About: React.FC = () => {
   const skills: Skill[] = [
@@ -112,7 +113,7 @@ const About: React.FC = () => {
             >
               <div className="relative w-80 h-80 mx-auto lg:w-96 lg:h-96">
                 <img 
-                  src="/src/assets/profile.jpg" 
+                  src={profileImage} 
                   alt="Tresor Shingiro"
                   className="w-full h-full object-cover rounded-2xl shadow-xl"
                 />
