@@ -5,7 +5,7 @@ import { ArrowRight, Download, Github, Linkedin, Mail } from 'lucide-react';
 import { projectsApi } from '../services/api';
 import { Project } from '../types';
 import profileImage from '../assets/profile.jpg';
-import resumePdf from '../assets/Tresor Shingiro Nkurunziza resume (1).pdf';
+import resumePdf from '../assets/Tresor Shingiro_CV.pdf';
 
 const Home: React.FC = () => {
   const [featuredProjects, setFeaturedProjects] = useState<Project[]>([]);
