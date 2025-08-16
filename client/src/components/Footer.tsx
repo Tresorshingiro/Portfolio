@@ -54,9 +54,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-800 pt-8 mt-8">
           <p className="text-center text-gray-400 flex items-center justify-center space-x-1">
-            <span>© {currentYear} Tresor Shingiro. Made with</span>
-            <Heart size={16} className="text-red-500" />
-            <span>using React & TypeScript</span>
+            <span>© {currentYear} Tresor Shingiro</span>
           </p>
         </div>
       </div>
