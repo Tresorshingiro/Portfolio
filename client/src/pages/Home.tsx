@@ -34,7 +34,7 @@ const Home: React.FC = () => {
   const handleDownloadCV = () => {
     const link = document.createElement('a');
     link.href = resumePdf;
-    link.download = 'Tresor_Shingiro_Resume.pdf';
+    link.download = 'Tresor_Shingiro_CV.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
