@@ -186,7 +186,7 @@ The `vercel.json` file ensures that routes like `/admin` work correctly:
 
 ### Base URL
 ```
-Production: https://your-backend.onrender.com/api
+Production: https://<your-backend-url>.onrender.com/api
 Development: http://localhost:5000/api
 ```
 
@@ -196,8 +196,8 @@ POST /auth/login
 Content-Type: application/json
 
 {
-  "email": "admin@tresor.com",
-  "password": "your_password"
+  "email": "<admin-email>",
+  "password": "<admin-password>"
 }
 ```
 
@@ -245,26 +245,26 @@ Access the admin panel at `/admin` with the following features:
 - Protected routes and middleware
 
 ### Admin Credentials
-- **Email**: `admin@tresor.com`
+- **Email**: Set via environment variables
 - **Password**: Set via environment variables
 
 ## 🔧 Environment Variables
 
 ### Backend (.env)
 ```env
-MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/portfolio
+MONGO_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<database>
 PORT=5000
 NODE_ENV=production
-JWT_SECRET=your-super-secret-jwt-key
-ADMIN_EMAIL=admin@tresor.com
-ADMIN_PASSWORD=your-secure-password
-ADMIN_USERNAME=admin
+JWT_SECRET=<your-super-secret-jwt-key>
+ADMIN_EMAIL=<your-admin-email>
+ADMIN_PASSWORD=<your-secure-password>
+ADMIN_USERNAME=<your-admin-username>
 ```
 
 ### Frontend
 Set in Vercel dashboard or local .env:
 ```env
-VITE_API_URL=https://your-backend.onrender.com/api
+VITE_API_URL=https://<your-backend-url>.onrender.com/api
 ```
 
 ## 🎨 Key Features Showcase
